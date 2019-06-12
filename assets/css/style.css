@@ -150,3 +150,42 @@ header nav a {
     text-align:center;
     color:#dddddd;
     font-size: 0.8em;
+}
+
+ .image_grid {
+     display:flex;
+     flex-flow: row wrap;
+ }
+
+ .picture_frame {
+     width: 200px;
+     height: 200px;
+     margin: 20px;
+ }
+
+ .picture_frame img {
+     margin:0px;
+ }
+
+ .picture_frame a {
+
+    display:inline-block;
+
+    position:relative;
+    top: -40px;
+
+    box-sizing:border-box;
+    width: 200px;
+    padding:5px 0px ;
+
+    font:  'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align:center;
+
+    /* width: 200px; */
+ 
+    background: #4aaaa5;
+    color: #dddddd;
+   
+    text-decoration: none;
+
+ }
